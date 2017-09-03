@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tar"
+    tools:context="com.example.saha.myapplication.rooztime">
+
+
+
+
+
+    <Button
+        android:id="@+id/button3"
+        android:text="مشاهده هفته"
+        android:textStyle="bold"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="35dp"
+        android:background="@drawable/redd"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:onClick="on"
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="125dp"
+        android:text="برنامه ریزی"
+        tools:layout_editor_absoluteY="329dp"
+        tools:layout_editor_absoluteX="119dp"
+        android:id="@+id/button2"
+        android:background="@drawable/qq"
+android:onClick="oni"
+        android:layout_marginTop="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
